@@ -1,0 +1,86 @@
+<div class="app-main__inner">
+    <div class="app-page-title">
+        <div class="page-title-wrapper">
+            <div class="page-title-heading">
+                <div class="page-title-icon">
+                    <i class="pe-7s-users icon-gradient bg-happy-itmeo">
+                    </i>
+                </div>
+                <div>All Organization
+                    <div class="page-title-subheading">This is list of all the organizations.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+
+
+        <div class="col-lg-12">
+            <div class="main-card mb-3 card">
+                <div class="card-body">
+                    <h5 class="card-title">All Organizations</h5>
+                    <div class="position-relative form-group">
+                        <div>
+                            <div class="custom-checkbox custom-control custom-control-inline"><input type="checkbox"
+                                    id="exampleCustomInline" class="custom-control-input"><label
+                                    class="custom-control-label" for="exampleCustomInline">Requested</label></div>
+                            <div class="custom-checkbox custom-control custom-control-inline"><input type="checkbox"
+                                    id="exampleCustomInline2" class="custom-control-input"><label
+                                    class="custom-control-label" for="exampleCustomInline2">Accepted</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="position-relative form-group"><input name="address" id="exampleAddress"
+                            placeholder="Type to search organizations..." type="text" class="form-control"></div>
+                    <table class="mb-0 table table-striped">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Name</th>
+                                <th>City</th>
+                                <th>Country</th>
+                                <th>Phone</th>
+                                <th>Email</th>
+                                <th>Status</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr [routerLink]="['../contactdetail']">
+                                <th scope="row">1</th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>1234567</td>
+                                <td>Student</td>
+                                <td>Google.</td>
+                                <td><div class="mb-2 mr-2 badge badge-pill badge-warning">pending</div></td>
+                                <td><button class="mb-2 mr-2 btn btn-info">accept / reject</button></td>
+                            </tr>
+                            <tr [routerLink]="['../contactdetail']">
+                                <th scope="row">2</th>
+                                <td>Pushpendu</td>
+                                <td>Ghosh</td>
+                                <td>1237645</td>
+                                <td>Ex-Student</td>
+                                <td>Mefy</td>
+                                <td><div class="mb-2 mr-2 badge badge-pill badge-success">accepted</div></td>
+                                <td><button class="mb-2 mr-2 btn btn-danger">delete</button></td>
+                            </tr>
+                            <tr [routerLink]="['../contactdetail']">
+                                <th scope="row">3</th>
+                                <td>Subham</td>
+                                <td>Dandapat</td>
+                                <td>9876543</td>
+                                <td>Supplier</td>
+                                <td>Chrome</td>
+                                <td><div class="mb-2 mr-2 badge badge-pill badge-warning">pending</div></td>
+                                <td><button class="mb-2 mr-2 btn btn-danger">delete</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

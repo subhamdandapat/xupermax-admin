@@ -1,0 +1,13 @@
+.background{
+    background-image:url('https://startkd.com/upload/blogs/howtopickamartialartsschool.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+}
