@@ -7,6 +7,7 @@ import { UsersComponent } from './users/users.component';
 
 const routes: Routes = [
   { path: 'login', component: LoginComponent },
+  { path: '', component: LoginComponent },
   // { path: '', redirectTo: '/dashboard' },
   {
     path: 'dashboard', component: DashboardComponent, children: [
